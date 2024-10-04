@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <name>GeeksFoeGeeks Company</name>
+    <staff id="1">
+        <name>Amar Pandey</name>
+        <salary>8.5</salary>
+    </staff>
+    <staff id="2">
+        <name>Akbhar Khan</name>
+        <salary>6.5</salary>
+    </staff>
+    <staff id="3">
+        <name>Anthoyny Walter</name>
+        <salary>3.2</salary>
+    </staff>
+</company>
