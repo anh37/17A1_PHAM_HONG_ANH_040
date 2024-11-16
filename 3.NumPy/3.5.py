@@ -1,11 +1,11 @@
 import numpy as np
 
 
-with open('C:/laptrinhaaa/python học trên lớp/Python Kỳ 3/Btap/3.NumPy/heights_1.txt', 'r') as file:
-    height = [float(line.strip()) for line in file if line.strip()]
+with open('C:/laptrinhaaa/python learn on class/Python learn ver3/Btap/3.NumPy/heights_1.txt', 'r') as file:
+    height = [float(value.strip()) for line in file for value in line.split(',') if value.strip()]
 
-with open('C:/laptrinhaaa/python học trên lớp/Python Kỳ 3/Btap/3.NumPy/weights_1.txt', 'r') as file:
-    weight = [float(line.strip()) for line in file if line.strip()]
+with open('C:/laptrinhaaa/python learn on class/Python learn ver3/Btap/3.NumPy/weights_1.txt', 'r') as file:
+    weight =  [float(value.strip()) for line in file for value in line.split(',') if value.strip()]
 
 
 arr_height = np.array(height)
