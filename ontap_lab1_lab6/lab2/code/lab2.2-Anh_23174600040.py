@@ -2,7 +2,7 @@ import numpy as np
 import csv
 
 # 1. Đọc dữ liệu từ file CSV
-file_path = 'C:/laptrinhaaa/python learn on class/Python learn ver3/1_on tap cuoi ky/lab2/data/diem_hoc_phan.csv'
+file_path = './lab2/data/diem_hoc_phan.csv'
 data = []
 
 with open(file_path, 'r', encoding='utf-8') as file:

@@ -1,10 +1,10 @@
 import numpy as np
 
 # 1. Đọc dữ liệu từ các tệp
-with open('C:/laptrinhaaa/python learn on class/Python learn ver3/1_on tap cuoi ky/lab2/data/efficiency.txt', 'r') as file:
+with open('./lab2/data/efficiency.txt', 'r') as file:
     efficiency = [int(line.strip()) for line in file]
 
-with open('C:/laptrinhaaa/python learn on class/Python learn ver3/1_on tap cuoi ky/lab2/data/shifts.txt', 'r') as file:
+with open('./lab2/data/shifts.txt', 'r') as file:
     shifts = [line.strip() for line in file]
 
 # 2. Tạo numpy array np_shifts từ list shifts và kiểm tra kiểu dữ liệu

@@ -1,7 +1,6 @@
 import numpy as np
 
 # 1. Tạo Dữ Liệu Mô Phỏng Nhiệt Độ
-np.random.seed(42)  # Đảm bảo tính lặp lại
 temperatures = np.round(np.random.uniform(low=15, high=35, size=30), 2)  # Dữ liệu nhiệt độ 30 ngày
 print("Nhiệt độ hàng ngày trong tháng:", temperatures)
 
